@@ -46,6 +46,7 @@ To get the information you can search by a query using
 
 It will return to you data in a json format, from which you can extact what data you need. 
 JSON stands for Javascript Object Notation, which is a minimal, readable format for structuring data. It will look something like: 
+```python
 data = 
 {
  "created_at":"Thu Apr 06 15:24:15 +0000 2017",
@@ -57,6 +58,7 @@ data =
     },  
  "entities": ["entity1", "entity2"]
 }
+```
 
 To access when it was created you woul access data['created_at'] to get back "Thu Apr 06 15:24:15 +0000 2017". 
 
