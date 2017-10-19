@@ -2,7 +2,7 @@
 #  Flask: Using APIs
 
 ## What is an API? 
-API stands for Application Programming Interface which is a set of subroutine definitions, protocols, and tools for building application software. It defines communictaion between various software components. Commercial sites create API's to make their data availible for people to use. 
+API stands for Application Programming Interface which is a set of subroutine definitions, protocols, and tools for building application software. It defines communication between various software components. Commercial sites create API's to make their data availible for people to use. 
 
 
 ## How to get an API Key 
@@ -60,13 +60,13 @@ data =
 }
 ```
 
-To access when it was created you woul access data['created_at'] to get back "Thu Apr 06 15:24:15 +0000 2017". 
+To access when it was created you would access data['created_at'] to get back "Thu Apr 06 15:24:15 +0000 2017". 
 
-You can alos have nested data and lists in your data. For intsance, data['user']['name'] returns Aria. 
+You can also have nested data and lists in your data. For intsance, data['user']['name'] returns Aria. 
 
 You can also have lists. For instance, data['entities'][0] returns "entity1"
 
-In the twitter example, yo ucan search by a query and get every related hashtag using the code below. You can add this to your main function in app.py. 
+In the twitter example, you can search by a query and get every related hashtag using the code below. You can add this to your main function in app.py. 
 
 ```python
     query = "#" + input
