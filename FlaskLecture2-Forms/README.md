@@ -10,7 +10,7 @@ class NameForm(FlaskForm):
 
 We can recieve input from the user and make it a new form in which we validate the input 
 ```python
-	form = NameForm()
+    form = NameForm()
     if form.validate_on_submit():
         name = form.name.data
 ```
