@@ -6,12 +6,12 @@ app = Flask(__name__)
 def index():
 	return "<h1> Hello World! </h1>"
 
-@app.route('/user/<name>')
-def user(name):
-	return "<h1> Hello %s!</h1>" % name
+@app.route('/route1/<int:post_id>')
+def route1(post_id):
+    return 'Route 1 Number %d' % post_id
 
-@app.route('/user2/<name>')
-def user2(name):
+@app.route('/route2/<name>')
+def route2(name):
      return render_template('index.html', name=name)
 
 if __name__ == '__main__':
