@@ -23,3 +23,7 @@ def index():
 ```
 
 The return statement has to be a string or be rendering a template. A template contains the HTML necessary to render the page correctly. 
+
+
+# Try it yourself
+ 1. Add a route that takes in a first and last name and displays both of them on the page. 
